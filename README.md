@@ -1,7 +1,7 @@
-# Depression Volume Calculator
+# Surface Ponding Volume Estimator
 ### ArcGIS Pro Python Toolbox
 
-A custom ArcGIS Pro geoprocessing tool for estimating the volume of water pooled in a terrain depression and the time required to pump it out. Built for stormwater field operations and emergency response.
+A custom ArcGIS Pro geoprocessing tool for estimating the volume of water ponded in a surface depression and the time required to pump it out. Built for stormwater field operations and emergency response.
 
 ---
 
@@ -138,4 +138,4 @@ The tool works with any bare-earth DEM. Recommended sources:
 
 Kaitlyn Rawlings  
 GIS Analyst | Environmental Studies, University of Kansas  
-[GitHub](https://github.com/kaitlynrawlings-creator)
+[GitHub](https://github.com/yourusername)
