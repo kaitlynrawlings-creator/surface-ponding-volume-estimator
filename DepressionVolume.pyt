@@ -39,8 +39,8 @@ def clip_dem(dem_path, template, ws, name="dem_clip"):
 # ============================================================
 class Toolbox(object):
     def __init__(self):
-        self.label = "Depression Volume Tools"
-        self.alias  = "DepressionVolumeTools"
+        self.label = "Surface Ponding Volume Tools"
+        self.alias  = "SurfacePondingVolumeTools"
         self.tools  = [DepressionVolume]
 
 # ════════════════════════════════════════════════════════════
@@ -48,7 +48,7 @@ class Toolbox(object):
 # ════════════════════════════════════════════════════════════
 class DepressionVolume(object):
     def __init__(self):
-        self.label = "Calculate Depression Volume"
+        self.label = "Surface Ponding Volume Estimator"
         self.description = (
             "USE CASE: Field operations and emergency response. Draw a polygon around "
             "a flooded area to calculate how much water needs to be pumped out. "
